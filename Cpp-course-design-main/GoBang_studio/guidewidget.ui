@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>guideWidget</class>
+ <widget class="QWidget" name="guideWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="guideGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>400</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>600</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>600</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+   </property>
+   <property name="title">
+    <string>新手教程</string>
+   </property>
+   <widget class="QPushButton" name="returnBtn">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>20</y>
+      <width>100</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #FFC0CB;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#FFC0CB;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>521</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;title&gt;五子棋教程&lt;/title&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Agency FB'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;h1 style=&quot; margin-top:20px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:xx-large; font-weight:600; color:#333333;&quot;&gt;五子棋教程&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:xx-large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h1&gt;
+&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:x-large; font-weight:600; color:#333333;&quot;&gt;简介&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:x-large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h2&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif';&quot;&gt;五子棋是一种两人对弈的棋类游戏。双方交替在棋盘上放置黑白两色的棋子，先在横、竖或斜方向上连成五个相同颜色棋子的玩家获胜。五子棋规则简单，但蕴含深厚的策略性，是一项老少皆宜的益智游戏。 &lt;/span&gt;&lt;/p&gt;
+&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:x-large; font-weight:600; color:#333333;&quot;&gt;棋盘和棋子&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:x-large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h2&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;棋盘&lt;/span&gt;：标准五子棋棋盘是15x15的方格。 &lt;/li&gt;
+&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;棋子&lt;/span&gt;：黑白两色的圆形棋子。 &lt;/li&gt;&lt;/ul&gt;
+&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:x-large; font-weight:600; color:#333333;&quot;&gt;基本规则&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:x-large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h2&gt;
+&lt;ol style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;开局&lt;/span&gt;： &lt;/li&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;黑子先行，双方交替下子。 &lt;/li&gt;
+&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;每次只能在一个空的交叉点放置一个棋子。 &lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;胜利条件&lt;/span&gt;： &lt;/li&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;任何一方玩家在横、竖或斜方向上连成五个或更多的连续同色棋子即获胜。 &lt;/li&gt;&lt;/ul&gt;
+&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;禁手规则（仅适用于部分规则，如专业比赛）&lt;/span&gt;： &lt;/li&gt;&lt;/ol&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 2;&quot;&gt;&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;对于黑棋来说，有一些限制条件，如“三三禁手”、“四四禁手”和“长连禁手”。 &lt;/li&gt;&lt;/ul&gt;
+&lt;h2 style=&quot; margin-top:16px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:x-large; font-weight:600; color:#333333;&quot;&gt;下棋策略&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-size:x-large; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/h2&gt;
+&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;占据中心&lt;/span&gt;：尽量占据棋盘的中心区域，这样可以有更多的延展空间和机会。 &lt;/li&gt;
+&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;双三活四&lt;/span&gt;：尽量创造“活三”或“活四”的机会，因为这些可以直接形成“连五”或威胁对方。 &lt;/li&gt;
+&lt;li style=&quot; font-family:'Arial','sans-serif';&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;防守与进攻&lt;/span&gt;：平衡防守和进攻，既要阻止对方形成“连五”，也要寻找自己的机会。 &lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:20px; margin-right:20px; -qt-block-indent:0; text-indent:0px; line-height:160%;&quot;&gt;&lt;span style=&quot; font-family:'Arial','sans-serif';&quot;&gt;希望这个教程能够帮助你快速上手五子棋！祝你游戏愉快！&lt;/span&gt; &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

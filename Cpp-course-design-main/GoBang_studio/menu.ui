@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QWidget" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>601</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QFrame" name="frame_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>581</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #F5F5F5;
+border-radius: 8px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>130</y>
+       <width>561</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #E0E0E0;
+border-radius: 8px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="usernameLabel">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>40</y>
+       <width>161</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 63 18pt &quot;Comic Sans MS&quot;;
+color: rgb(0, 0, 0);
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;用户名&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="avatarLabel">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>100</width>
+       <height>100</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>100</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>(头像)</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="quitBtn">
+     <property name="geometry">
+      <rect>
+       <x>472</x>
+       <y>20</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #FFC0CB;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#FFC0CB;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+     </property>
+     <property name="text">
+      <string>退出</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="settingsBtn">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>70</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #FFC0CB;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#FFC0CB;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+     </property>
+     <property name="text">
+      <string>设置</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="reloginBtn">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>20</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #FFC0CB;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#FFC0CB;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+     </property>
+     <property name="text">
+      <string>登出</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="guideBtn">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>70</y>
+       <width>100</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #FFC0CB;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#FFC0CB;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+     </property>
+     <property name="text">
+      <string>教程</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="practiceBtn">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>170</y>
+       <width>150</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>FZYaoti</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    font: 16pt &quot;FZYaoti&quot;;
+    color: rgb(255, 255, 255);
+    padding: 0 8px;
+    background: #008080;
+    border-radius: 75px;
+}
+
+QPushButton:hover {
+    background: #007070;
+    border-radius: 75px;
+}
+
+QPushButton:pressed {
+    background: #006060;
+    border-radius: 75px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>练习对战</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="computerBtn">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>170</y>
+       <width>150</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    font: 16pt &quot;FZYaoti&quot;;
+    color: rgb(255, 255, 255);
+    padding: 0 8px;
+    background: #5B9BD5;
+    border-radius: 75px;
+}
+
+QPushButton:hover {
+    background: #4a82b4;  /* 悬停时的更暗颜色 */
+    border-radius: 75px;
+}
+
+QPushButton:pressed {
+    background: #396b93;  /* 点击时的更暗颜色 */
+    border-radius: 75px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>人机对战</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="duelBtn">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>170</y>
+       <width>150</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    font: 16pt &quot;FZYaoti&quot;;
+    color: rgb(255, 255, 255);
+    padding: 0 8px;
+    background: #A67B5B;
+    border-radius: 75px;
+}
+
+QPushButton:hover {
+    background: #95694e;  /* 悬停时的更暗颜色 */
+    border-radius: 75px;
+}
+
+QPushButton:pressed {
+    background: #7d5841;  /* 点击时的更暗颜色 */
+    border-radius: 75px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>双人对战</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

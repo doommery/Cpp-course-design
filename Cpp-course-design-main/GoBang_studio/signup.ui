@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>signUp</class>
+ <widget class="QWidget" name="signUp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>479</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>481</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Comic Sans MS&quot;;
+border-color: rgb(196, 178, 255);
+border-color: rgb(170, 0, 255);
+color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="title">
+    <string>注册新账号</string>
+   </property>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>68</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>邮箱</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usernameEdit">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>47</y>
+      <width>244</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	 border: 1px  solid;
+     border-radius: 4px;
+	font: 24px
+}</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emailEdit">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>200</y>
+      <width>244</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	 border: 1px  solid;
+     border-radius: 4px;
+	font: 24px
+}</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="showPwdCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>177</y>
+      <width>121</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Agency FB</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Agency FB&quot;;</string>
+    </property>
+    <property name="text">
+     <string>显示密码</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="repeatPwdEdit">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>133</y>
+      <width>244</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	 border: 1px  solid;
+     border-radius: 4px;
+	font: 24px
+}</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="codeEdit">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>243</y>
+      <width>244</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	 border: 1px  solid;
+     border-radius: 4px;
+	font: 24px
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="returnBtn">
+    <property name="geometry">
+     <rect>
+      <x>344</x>
+      <y>330</y>
+      <width>128</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #3366FF;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#4f85e2;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="codeBtn">
+    <property name="geometry">
+     <rect>
+      <x>351</x>
+      <y>201</y>
+      <width>121</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #3366FF;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#4f85e2;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+    </property>
+    <property name="text">
+     <string>获得验证码</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>133</y>
+      <width>68</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>重复密码</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="createBtn">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>290</y>
+      <width>244</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #3366FF;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#4f85e2;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+    </property>
+    <property name="text">
+     <string>注册</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>68</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>243</y>
+      <width>68</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>验证码</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>47</y>
+      <width>68</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;Comic Sans MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>用户名</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="pwdEdit">
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>90</y>
+      <width>244</width>
+      <height>37</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	background-color: rgb(255, 255, 255);
+	 border: 1px  solid;
+     border-radius: 4px;
+	font: 24px
+}</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="avatarLabel">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>(头像)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pickAvatarBtn">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>150</y>
+      <width>121</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-radius:15px;
+padding : 0 4px;
+background: #3366FF;
+border -radius:10px;
+color: rgb(255, 255, 255);
+font: 24px
+}
+QPushButton:hover:!pressed
+
+{
+background:#4f85e2;
+}
+QToolButton
+{
+
+border-radius:10px;
+bacground:red;
+color:red;
+}
+
+QPushButton:pressed
+{
+              font-size: 19px;
+              transition: 0.9s; 
+}</string>
+    </property>
+    <property name="text">
+     <string>选择头像</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
